@@ -6,7 +6,7 @@
 
 /* making the utility styles for common attributes and classes */
 body{
-    font-family: roboto, arial, sans-serif;
+    font-family: 'roboto', arial, sans-serif;
     text-decoration: none;
     min-height: 140vh;
     background: #f1f3f6 ;
@@ -280,4 +280,114 @@ body{
 .login:hover .login_dropdown , .more:hover .more_dropdown{
     display: block;
 }
+
+/* first section */
+
+.card_1{
+    float: left;
+    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border-radius: 2px ;
+    width: 85%;
+}
+
+.card_2{
+    float: right;
+    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border-radius: 2px ;
+    cursor: pointer;
+}
+.common-row_q img{
+    height: 450px;
+    width: 250px;
+    margin: 5px;
+}
+.card_3{
+    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin: 500px 5px;
+    border-radius: 2px ;
+}
+.common-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+}
+.common-heading-left{
+    font-size: 20px;
+    font-weight: bold;
+    padding: auto;
+}
+.common-heading-left h2{
+    font-size: 22px;
+    padding: 5px  0px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.common-heading-right button{
+   
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 2px;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    background: #2874f0;
+    color: #fff;
+    border: none;
+    vertical-align: super;
+    cursor: pointer;
+    outline: none;
+
+}
+.common-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 366px;
+    margin: 10px 0px;
+}
+.common-col{
+    text-align: center;
+    line-height: 22px;
+}
+.common-col img{
+    
+    padding-top: 30px;
+}
+
+.common-col img:hover{
+    transform:scale(1.05)
+}
+.common-col h5,h4,h6{
+    text-transform: capitalize;
+    letter-spacing: normal;
+    cursor: pointer;
+    
+    
+}
+.common-col h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.common-col h4{
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+}
+.common-col h6{
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+    font-weight:400 ;
+}
+
+
 
